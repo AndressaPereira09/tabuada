@@ -1,0 +1,111 @@
+@font-face {
+    font-family: monica;
+    src: url(turma\ da\ monica.ttf);
+}
+
+body {
+    font-family: monica;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height:100vh ;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #77eda8;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.tudo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.t {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    padding: 25px;
+    background-color: #40d54d;  
+    color: #fff;
+    text-align: center;
+}
+
+#tabela-tabuada {
+    margin: auto;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+
+button {
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+footer {
+     background-color: #77eda8;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.dark-mode{
+    background-color: #000;
+}
+
+.dark-mode header{
+    background-color: #0f7138;
+    color: #000;
+}
+
+.dark-mode .t{
+    background-color: #14a04e;
+    color: #000;
+}
+
+.dark-mode footer{
+    background-color: #0f7138;
+    color: #000;
+}
+
+@media(max-width:590px) {
+    img{
+        margin-left: 30px;
+        width: 100px;
+        margin-top: 300px;
+    }
+
+    .t{
+        width: 200px;
+        height: 450px;
+    }
+}
